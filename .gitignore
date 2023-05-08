@@ -1,3 +1,7 @@
+# dev tools
+.idea
+
+
 # build output
 dist/
 .output/

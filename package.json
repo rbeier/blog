@@ -12,7 +12,8 @@
     "format": "prettier --plugin-search-dir=. --write .",
     "cz": "cz",
     "prepare": "husky install",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "new": "new-article"
   },
   "dependencies": {
     "@astrojs/rss": "^2.3.0",
@@ -35,6 +36,7 @@
     "@types/react": "^18.0.28",
     "@typescript-eslint/parser": "^5.56.0",
     "astro-eslint-parser": "^0.13.2",
+    "astro-paper-new-article": "^0.2.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.36.0",
@@ -55,5 +57,12 @@
     "!(*.{png,jpg,jpeg,webp})": [
       "prettier --plugin-search-dir=. --write"
     ]
+  },
+  "astroNewArticle": {
+    "blogPath": "src/content/blog",
+    "contentPath": "public/assets",
+    "contentSubDirectory": "slug",
+    "author": "Robin Beier",
+    "proposedTags": []
   }
 }
