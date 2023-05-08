@@ -62,7 +62,14 @@
     "blogPath": "src/content/blog",
     "contentPath": "public/assets",
     "contentSubDirectory": "slug",
-    "author": "Robin Beier",
-    "proposedTags": []
+    "author": "rbeier",
+    "proposedTags": [
+      "Personal",
+      "Meta",
+      "Angular",
+      "Vue",
+      "Nx",
+      "Node"
+    ]
   }
 }
