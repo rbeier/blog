@@ -1,9 +1,16 @@
-img + em {
-  margin-top: -1.5rem;
-  display: block;
-  color: #a9a9a9;
+.prose img + em {
+  @apply block -mt-2 text-skin-light;
+
+  a {
+    @apply text-skin-light;
+  }
 }
 
-.prose img + em a {
-  color: #a9a9a9 !important;
+.logo {
+  @apply flex;
+
+  &:after {
+    @apply inline-block text-skin-accent;
+    content: "/blog";
+  }
 }
